@@ -1,2 +1,2 @@
-# [Makersoft][1]Ö÷Ò³
+# [Makersoft][1] ä¸»é¡µ
 [1]: http://www.makersoft.org

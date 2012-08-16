@@ -1,6 +1,7 @@
 body {
     padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-	font-family: 'Proxima Nova', 'proxima-nova', 'Helvetica Neue', Helvetica,'ËÎÌו' sans-serif;
+	font-family: 'Proxima Nova', 'proxima-nova', 'Helvetica Neue', Helvetica sans-serif;
+	
 }
 
 
@@ -204,6 +205,7 @@ section .intro {
     margin: 0.5em 0 3em;
 }
 
+/**
 section.features .span6, section .features .span6 {
     margin-bottom: 60px;
 }
@@ -244,6 +246,53 @@ section.features .span6 i.collaborate, section .features .span6 i.collaborate {
 
 section.features .span6 i.search, section .features .span6 i.search {
     background-position: 14px -194px;
+}
+
+**/
+section.features .span6,section .features .span6 {
+	width: 300px;
+	text-align: center;
+}
+
+section.features .span6 h3,section .features .span6 h3 {
+	font-size: 26px;
+}
+
+section.features .span6 p,section .features .span6 p {
+	font-size: 15px;
+	color: #555;
+	padding: 10px 5px;
+}
+
+section.features .span6 a,section .features .span6 a {
+	padding: 5px 10px;
+	border-radius: 2px;
+	background: #eee;
+	color: #444;
+}
+
+section.features .span6 a:hover,section .features .span6 a:hover {
+	text-decoration: none;
+	background: #da4c3b;
+	color: #fff;
+}
+
+section.features .span6 i,section .features .span6 i {
+	height: 145px;
+	width: 300px;
+	display: block;
+}
+
+section.features .span6 i.bookmarking,section .features .span6 i.bookmarking {
+	background: url('../images/icon-discover.png?62cc53229b01') no-repeat;
+}
+
+section.features .span6 i.collaborate,section .features .span6 i.collaborate {
+	background: url('../images/icon-discover.png?62cc53229b01') no-repeat;
+}
+
+section.features .span6 i.search,section .features .span6 i.search {
+	background: url('../images/icon-discover.png?62cc53229b01') no-repeat;
 }
 /**
 section.screenshots {
@@ -502,11 +551,10 @@ footer #footer-floor #elsewhere-icons a.blog {
     background-position: -70px 0
 }
 */
-
 footer {
-    padding: 20px 0;
+    padding: 60px 0;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
     color: #777;
 }
 

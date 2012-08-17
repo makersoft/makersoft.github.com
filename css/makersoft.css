@@ -573,6 +573,7 @@ footer .follow-buttons {
     height: 40px;
     text-align: center;
     clear: both;
+	font-family: verdana,arial;
 }
 
 footer .follow-buttons > div {
